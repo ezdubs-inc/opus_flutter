@@ -36,11 +36,11 @@ android {
     defaultConfig {
         minSdkVersion 19
     }
-    externalNativeBuild {
-        ndkBuild{
-            path "Android.mk"
-        }
-    }
+    // externalNativeBuild {
+    //     ndkBuild{
+    //         path "Android.mk"
+    //     }
+    // }
 
     dependencies {
         testImplementation 'junit:junit:4.13.2'
